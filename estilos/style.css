@@ -268,8 +268,8 @@ button:hover {
 }
 
 /* Para que el formulario no se deforme */
-#quejas {
-  max-width: 500px;
+#formulario {
+  max-width: 800px;
 }
 
 /* Responsive */
@@ -279,6 +279,9 @@ button:hover {
   }
 
   .side-img {
+    display: none;
+  }
+  .contenido-centro{
     display: none;
   }
 }
@@ -294,7 +297,11 @@ footer {
 }
 
 
+  .fotos-goles{
+    width: 910px;
+    height: 700px;
     
+  }  
 .titulo-batacazo{ /*Octavos de final*/
   
     color: rgb(243, 242, 242);
@@ -313,6 +320,28 @@ footer {
     
 }
 
+.contenido-centro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Centra horizontalmente */
+    text-align: center;   /* Centra el texto del figcaption */
+    margin-top: 20px;
+}
+
+/* Imagen centrada y ajustada */
+.fotos-goles {
+    display: block;
+    max-width: 90%;  /* Para que no haga scroll horizontal */
+    height: auto;
+    margin: 0 auto;
+}
+
+/* Alineación del párrafo */
+#intro p {
+    text-align: center;   /* Centra el texto */
+    max-width: 900px;
+    margin: 0 auto;       /* Centra el párrafo en la página */
+}
 
 
 
