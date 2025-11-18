@@ -6,32 +6,56 @@
     <title>Primera estrella</title>
     <link rel="stylesheet" href="../pagina-calamar/estilos/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=BBH+Sans+Hegarty&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Monomaniac+One&family=Stardos+Stencil:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
-    <nav class="nav-container">
-    <img src="Imagenes/cap estrella.png" class="escudo" alt="Escudo">
-
-    <div class="dropdown">
-        <button class="dropdown-btn">Partidos ▾</button>
-        <ul class="dropdown-menu">
-            
-            <li><a href="../pagina-calamar/Paginas/octavos.html">Octavos</a></li>
-            <li><a href="../pagina-calamar/Paginas/cuartos.html">Cuartos</a></li>
-            <li><a href="../pagina-calamar/Paginas/semi.html">Semifinal</a></li>
-            <li><a href="../pagina-calamar/Paginas/final.html">Final</a></li>
-        </ul>
-        
-    </div>
-
-    <!--Fuera del dropdown -->
-    <ul class="nav-links">
-        <li><a href="./index.html">Inicio</a></li>
-        <li><a href="./Paginas/plantel.html">Plantel</a></li>
-        <li><a href="./Paginas/galeria.html">Galería</a></li>
-        <li><a href="./Paginas/nosotros.html">Nosotros</a></li>
-    </ul>
+         <nav class="navbar bg-body-tertiary fixed-top navbar-estilada">
+                <div class="container-fluid">
+                    <img src="./Imagenes/cap estrella.png" alt="" class="escudo">
+                    <a class="navbar-brand">PLATENSE CAMPEÓN</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">La pagina del Campeón</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./Paginas/plantel.html">Plantel</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./Paginas/galeria.html">Galería</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./Paginas/nosotros.html">Nosotros</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Partidos
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="./Paginas/octavos.html">Octavos</a></li>
+                                        <li><a class="dropdown-item" href="./Paginas/cuartos.html">Cuartos</a></li>
+                                        <li><a class="dropdown-item" href="./Paginas/semi.html">Semifinal</a></li>
+                                        <li><a class="dropdown-item" href="./Paginas/final.html">Final</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
 </nav>
     </header>
 
@@ -49,7 +73,7 @@
                 <h3>Vs Racing</h3>
                 <img src="Imagenes/vs racing.jpg" alt="Partido contra Racing">
                 <p>📍 Avellaneda</p>
-                <p class="etapa">Con gol de Orsini sobre el final, el Calamar daba el primer batacazo de los octavos.</p>
+                <p class="etapa">CON GOL DE ORSINI SOBRE EL FINAL, EL CALAMAR DABA EL PRIMER BATACAZO DE LOS OCTAVOS.</p>
                 <a href="https://www.youtube.com/watch?v=jWTWefhD8VE&t=152s" target="_blank" class="resumen-btn">Ver resumen</a>
             </article>
 
@@ -57,7 +81,7 @@
                 <h3>Vs River</h3>
                 <img src="Imagenes/vs river.jpg" alt="Partido contra River">
                 <p>📍 Monumental</p>
-                <p class="etapa">Platense hace historia y gana por penales 4-2 ante un Monumental que quedo en silencio atroz.</p>
+                <p class="etapa">PLATENSE HACE HISTORIA Y GANA POR PENALES 4-2 ANTE UN MONUMENTAL QUE QUEDÓ EN SILENCIO ATROZ.</p>
                 <a href="https://www.youtube.com/watch?v=lNi3TWa_imA" target="_blank" class="resumen-btn">Ver resumen</a>
             </article>
 
@@ -65,7 +89,7 @@
                 <h3>Vs San Lorenzo</h3>
                 <img src="Imagenes/vs san lorenzo.jpg" alt="Partido contra San Lorenzo">
                 <p>📍 Bajo Flores</p>
-                <p class="etapa">Tras un corner nadie puede rechazar esa pelota hasta que Zapiola logra conectar y mete a Platense a la final.</p>
+                <p class="etapa">TRAS UN CÓRNER NADIE PUEDE RECHAZAR ESA PELOTA HASTA QUE ZAPIOLA LOGRA CONECTAR Y METE A PLATENSE A LA FINAL.</p>
                 <a href="https://www.youtube.com/watch?v=5xbQYZ6Qo4c" target="_blank" class="resumen-btn">Ver resumen</a>
             </article>
 
@@ -73,7 +97,7 @@
                 <h3>Vs Huracán</h3>
                 <img src="Imagenes/vs huracan.jpg" alt="Partido contra Huracán">
                 <p>📍 Santiago del Estero</p>
-                <p class="etapa">Golazo de Mainero y Platense obtiene su primer título.</p>
+                <p class="etapa">CON UN GOLAZO DE MAINERO QUE SE CLAVO EN EL ANGULO, PLATENSE OBTIENE SU PRIMER CAMPEONATO.</p>
                 <a href="https://www.youtube.com/watch?v=3YJk3wAWQ9o" target="_blank" class="resumen-btn">Ver resumen</a>
             </article>
         </section>

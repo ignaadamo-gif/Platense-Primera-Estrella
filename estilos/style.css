@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: "Monomaniac One", sans-serif;
 }
 
 body {
@@ -133,7 +133,7 @@ header {
 #hero h1 {
   font-size: 3rem;
   margin-bottom: 2rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Monomaniac One", sans-serif;
   color: #fff;
 }
 
@@ -326,8 +326,12 @@ footer {
     align-items: center;  /* Centra horizontalmente */
     text-align: center;   /* Centra el texto del figcaption */
     margin-top: 20px;
+    
 }
-
+.parrafos{
+  color: #b26f04;
+  align-items: center;
+}
 /* Imagen centrada y ajustada */
 .fotos-goles {
     display: block;
