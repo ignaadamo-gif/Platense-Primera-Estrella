@@ -1,0 +1,60 @@
+.categoria {
+    margin-bottom: 10px;
+}
+.plantel h1{
+  text-align: center;
+    color: #623f03;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+.categoria h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #333;
+    position: relative;
+}
+
+/* Línea debajo del h2 */
+.categoria h2::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 3px;
+    background-color: #623f03;
+    margin: 8px auto 0;
+}
+
+/* Contenedor de jugadores */
+.figurita {
+    display: flex;
+    flex-wrap: wrap;      /* Que pasen a la siguiente línea */
+    gap: 12px;            /* Espacio entre imágenes */
+    justify-content: center; /* Centrado */
+    overflow: hidden;     /* Evita que se salga contenido */
+    position: relative; ;
+    
+}
+
+/* Imágenes */
+.figurita img {
+  
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    background-color: #a96b09ce;
+    padding: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform-origin: center;
+    
+    
+}
+
+
+.figurita img:hover {
+    transform: scale(1.05);
+    background-color: #926203;
+    padding: 10px;
+}

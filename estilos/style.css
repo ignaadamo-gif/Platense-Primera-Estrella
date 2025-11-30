@@ -11,7 +11,7 @@
 body {
   
   line-height: 1.6;
-  background-color: #f7f7f7;
+  background-color: #f1f0f0;
   color: #333;
 }
 
@@ -48,8 +48,8 @@ header {
 }
 
 .dropdown-btn {
-  background: #d70909;
-  color: #fff;
+  
+  color: #8f4805;
   padding: 10px 15px;
   border: none;
   cursor: pointer;
@@ -57,9 +57,7 @@ header {
   border-radius: 5px;
 }
 
-.dropdown-btn:hover {
-  background: #186b94;
-}
+
 
 .dropdown-menu {
   display: none;
@@ -83,7 +81,7 @@ header {
 }
 
 .dropdown-menu li a:hover {
-  background: #555;
+  background: #b96206;
 }
 
 /* Mostrar menú al pasar */
@@ -91,27 +89,8 @@ header {
   display: block;
 }
 
-/* NAV LINKS A LA DERECHA */
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
-  margin: 0;
-  padding: 0;
-  margin-left: auto;   /* ✅ Esto empuja los links a la derecha */
-}
 
-.nav-links a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 500;
-  transition: color 0.3s ease;
-}
 
-.nav-links a:hover {
-  color: #ddd;
-}
   
 
 
@@ -292,22 +271,45 @@ footer {
   text-align: center;
   padding: 1rem;
   background: #b75104;
-  color: #fff;
+  color: #faf9f9;
   margin-top: 3rem;
 }
 
 
-  .fotos-goles{
-    width: 910px;
-    height: 700px;
-    
-  }  
-.titulo-batacazo{ /*Octavos de final*/
-  
-    color: rgb(243, 242, 242);
+   
+.titulo-batacazo {
     text-align: center;
-    background-color: rgb(184, 104, 0);
-    
+    font-size: 1.8rem;
+    margin: 20px 10px;
+    background: #b47210;
+    color: wheat;
+}
+
+/* Contenedor del texto */
+#intro p {
+    padding: 0 15px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Imagen central */
+.fotos-goles {
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Formaciones */
+#formaciones img {
+    margin-top: 20px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
 }
 
 
@@ -329,8 +331,8 @@ footer {
     
 }
 .parrafos{
-  color: #b26f04;
-  align-items: center;
+  color: #080808;
+  text-align: justify;
 }
 /* Imagen centrada y ajustada */
 .fotos-goles {
@@ -369,118 +371,7 @@ footer {
   margin: 3rem 0;
 }
 
-.cancha {
-  position: relative;
-  width: 90%;
-  max-width: 800px;
-  height: 600px;
-  margin: 2rem auto;
-  background: #2e8b57;
-  border: 4px solid #fff;
-  border-radius: 10px;
-  overflow: hidden;
-}
 
-/* ====== LÍNEAS DE CANCHA ====== */
-.linea-mitad {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 2px;
-  height: 100%;
-  background: white;
-  transform: translateX(-50%);
-}
-
-.circulo-central {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 120px;
-  height: 120px;
-  border: 2px solid white;
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.area {
-  position: absolute;
-  width: 150px;
-  height: 250px;
-  border: 2px solid white;
-}
-
-.area-local {
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.area-visita {
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-/* ====== EQUIPOS ====== */
-.equipo {
-  position: absolute;
-  width: 50%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.equipo-local {
-  left: 0;
-}
-
-.equipo-visita {
-  right: 0;
-}
-
-.equipo h3 {
-  color: white;
-  margin-bottom: 1rem;
-  text-shadow: 1px 1px 3px black;
-}
-
-/* ====== JUGADORES ====== */
-.jugadores {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
-.fila {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-.jugador {
-  background: #fff;
-  color: #222;
-  font-weight: bold;
-  padding: 6px 10px;
-  border-radius: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-  font-size: 0.9rem;
-}
-
-/* ====== POSICIONES ====== */
-.equipo-local .jugador.arquero {
-  align-self: flex-start;
-  margin-left: 159px;
-}
-
-.equipo-visita .jugador.arquero {
-  align-self: flex-end;
-  margin-right: 150px;
-}
 
 
 
@@ -545,17 +436,6 @@ footer {
     padding: 10px;
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background-color: #623f03;   /* Puedes cambiarlo después */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    position: sticky;
-    top: 0;
-    z-index: 100;
-}
 
 
 
@@ -631,26 +511,6 @@ footer {
 }
 
 /*NOSOTROS*/
-#quejas {
-  max-width: 600px;
-  margin: 3rem auto;
-  background-color: #fff;
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  text-align: center;
-}
-
-#quejas h2 {
-  color: #4b2e05;
-  margin-bottom: 0.5rem;
-}
-
-#quejas p {
-  color: #3b2901;
-  margin-bottom: 1.5rem;
-  font-size: 0.95rem;
-}
 
 /* ===== FORMULARIO ===== */
 form {
@@ -754,7 +614,9 @@ footer {
 }
   
   
-
+main {
+    margin-top: 80px;  /* Ajustá entre 90 y 130 px según se vea */
+}
 
 
 

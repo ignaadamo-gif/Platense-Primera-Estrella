@@ -5,30 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Octavos de final</title>
     <link rel="stylesheet" href="../estilos/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     </head>
 
 <body>
   
     <header>
-    <a href="../index.html" class="logo-link">
-      <img src="../Imagenes/cap estrella.png" alt="Escudo de Platense" class="escudo">
-    </a>
-    
-    <nav>
-      <ul class="nav-links">
-        <li><a href="../index.html">Inicio</a></li>
-        <li><a href="../Paginas/octavos.html" class="active">Octavos de final</a></li>
-        <li><a href="../Paginas/cuartos.html">Cuartos de final</a></li>
-        <li><a href="../Paginas/semi.html">Semifinal</a></li>
-        <li><a href="../Paginas/final.html">Final</a></li>
-      </ul>
-    </nav>
-  </header>
+     
+        <nav class="navbar bg-body-tertiary fixed-top navbar-estilada">
+                <div class="container-fluid">
+ <a href="../index.html">
+<img src="../Imagenes/cap estrella.png" alt="" class="escudo">
+</a>
+                    <a class="navbar-brand">PLATENSE CAMPEÓN⭐ </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">La pagina del Campeón</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+    <a class="nav-link" href="../index.html">Inicio</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="../Paginas/plantel.html">Plantel</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="../Paginas/galeria.html">Galería</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="../Paginas/nosotros.html">Nosotros</a>
+</li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Partidos
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="../Paginas/octavos.html">Octavos</a></li>
+                                        <li><a class="dropdown-item" href="../Paginas/cuartos.html">Cuartos</a></li>
+                                        <li><a class="dropdown-item" href="../Paginas/semi.html">Semifinal</a></li>
+                                        <li><a class="dropdown-item" href="../Paginas/final.html">Final</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+</nav>
+    </header>
 
 <main>
   <section id="intro">
   <h2 class="titulo-batacazo"> Primer batacazo</h2>
-<p>
+<p class="parrafos">
 Con mucha entrega y actitud, Platense se clasificó a los cuartos de final del Torneo Apertura Betano 2025, tras vencer 1-0 a Racing Club este sábado en condición de visitante. Nicolás Orsini convirtió el único gol de la noche.
 El Marrón encaró este duelo decisivo con el regreso de varios habituales titulares tras el encuentro del pasado domingo ante Gimnasia, entre los que se destacó el de Oscar Salomón, tras dejar atrás un desgarro.
 En el comienzo, el juego fue parejo. El local tomó la iniciativa atacando por las bandas pero Platense fue inteligente para cerrarse bien y desplegar rápidas contras que llevaron peligro al arco de Racing. La mejor llegó tras un buen centro de Guido Mainero que Augusto Lotti conectó de cabeza y la pelota dio en el poste derecho.
@@ -38,11 +73,11 @@ En el comienzo, el juego fue parejo. El local tomó la iniciativa atacando por l
 En los minutos finales el local empujó como pudo pero Platense tuvo mejores oportunidades para estirar la victoria. Ignacio Vázquez y Leonel Picco, de cabeza, llegaron con firmeza al área de Racing pero no pudieron convertir.
 El equipo de Orsi-Gómez volvió a hacerse grande en el Cilindro, donde no perdió desde que volvió a Primera, se clasificó a cuartos de final en una noche memorable y ahora espera por Barracas Central o River Plate. 
 </p>
-<figure> 
-  <div class="contenido-centro"></div>
-<img src="../Imagenes/Festejo vs racing.jpg" alt="abrazo vs racing" class= "fotos-goles">
 
+<figure>
+  <img src="../Imagenes/Festejo vs racing.jpg" alt="abrazo vs racing" class="fotos-goles">
 </figure>
+
 </section>
 
 <section id="formaciones">
@@ -53,6 +88,7 @@ El equipo de Orsi-Gómez volvió a hacerse grande en el Cilindro, donde no perdi
   <footer>
     <p>© 2025 Platense Campeón. Todos los derechos reservados.</p>
   </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
