@@ -1,8 +1,17 @@
+// footer {
+//   text-align: center;
+//   background-color: #4b2e05;
+//   color: white;
+//   padding: 1rem 0;
+//   margin-top: 3rem;
+//   font-size: 0.9rem;
+// }
+
 footer {
-  text-align: center;
-  background-color: #4b2e05;
-  color: white;
-  padding: 1rem 0;
+  @include center-text; 
+  background-color: $color-bg-footer;
+  color: $color-text-footer;
+  padding: $footer-padding;
   margin-top: 3rem;
-  font-size: 0.9rem;
+  font-size: $footer-font-size;
 }

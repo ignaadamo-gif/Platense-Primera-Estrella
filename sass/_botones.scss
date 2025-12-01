@@ -1,0 +1,31 @@
+/* Botones generales */
+resumen-btn {
+  background-color: $btn-bg;
+  color: $btn-text;
+  padding: $btn-padding;
+  border-radius: $btn-radius;
+  text-decoration: none;
+  font-weight: bold;
+  @include transition-ease;
+
+  &:hover {
+    background-color: $btn-bg-hover;
+    transform: scale($btn-scale-hover);
+  }
+}
+
+/*BOTON FORMULARIO*/
+button {
+  background-color: brown;
+  color: #fbfcfb;
+  border: none;
+  padding: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #a52a2a;
+}

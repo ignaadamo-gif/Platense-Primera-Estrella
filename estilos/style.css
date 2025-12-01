@@ -266,14 +266,7 @@ button:hover {
 }
   
   
-/* ===== FOOTER ===== */
-footer {
-  text-align: center;
-  padding: 1rem;
-  background: #b75104;
-  color: #faf9f9;
-  margin-top: 3rem;
-}
+
 
 
    
@@ -306,11 +299,7 @@ footer {
     border-radius: 10px;
 }
 
-/* Footer */
-footer {
-    text-align: center;
-    padding: 15px;
-}
+
 
 
 

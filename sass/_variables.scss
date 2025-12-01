@@ -1,0 +1,30 @@
+$color-bg-footer: #4b2e05;
+$color-text-footer: #ffffff;
+$footer-padding: 1rem 0;
+$footer-font-size: 0.9rem;
+
+@mixin center-text {
+  text-align: center;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+// ============================
+// Variables Boton menu 
+// ============================
+$btn-bg: brown;
+$btn-bg-hover: #a52a2a;
+$btn-text: #fff;
+$btn-padding: 0.8rem 1.5rem;
+$btn-radius: 8px;
+$btn-scale-hover: 1.05;
+
+// ============================
+// Mixins menu
+// ============================
+@mixin transition-ease {
+  transition: all 0.3s ease;
+}
