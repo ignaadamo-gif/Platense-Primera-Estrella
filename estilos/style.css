@@ -192,7 +192,7 @@ header {
   padding: 3rem 1rem;
   max-width: 800px;
   margin: 3rem auto;
-  background-color: rgb(235, 235, 232);
+  background-color: rgb(250, 250, 198);
   border-radius: 10px;
   color: #a35f07;
 }
@@ -247,137 +247,168 @@ button:hover {
   height: auto;
 }
 
-/* Para que el formulario no se deforme */
+
 #formulario {
   max-width: 800px;
 }
 
+.octavos-hero {
+    min-height: 100vh;
+    background: linear-gradient(to right, #000000 55%, rgba(0, 0, 0, 0.4)),
+                url("../Imagenes/Festejo vs racing.jpg"); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 80px 5%;
+    color: white;
+}
 
-  
-  
+/* Texto del lado izquierdo */
+.octavos-hero .texto {
+    max-width: 500px;
+}
+
+.octavos-hero h1 {
+    font-size: 65px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+}
+
+.octavos-hero p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #e8e8e8;
+}
+
+/* Imagen del lado derecho */
+.octavos-hero img {
+    width: 820px;
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(211, 27, 27, 0.6);
+}
 
 
-
-   
-.titulo-batacazo {
-    text-align: center;
-    font-size: 1.8rem;
-    margin: 20px 10px;
-    background: #b47210;
-    color: rgb(250, 250, 249);
+.cuartos-section {
+    min-height: 100vh;
+    padding: 80px 5%;
+    background: linear-gradient(to right, #000000 55%, rgba(0,0,0,0.35)),
+                url("../Imagenes/monumental noche.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    color: rgb(208, 10, 10);
+    gap: 40px;
 }
 
 /* Contenedor del texto */
-#intro p {
-    padding: 0 20px;
-    font-size: 1rem;
-    line-height: 1.5;
-    background-color: #c2a202;
+.cuartos-texto {
+    max-width: 500px;
 }
 
-/* Imagen central */
-.fotos-goles {
-    margin: 20px auto;
+/* Títulos grandes */
+.cuartos-texto h1 {
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+/* Párrafos */
+.cuartos-texto p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #f3f4f3;
+}
+
+/* Imagen del costado */
+.cuartos-img img {
+    width: 820px;
     max-width: 100%;
-    border-radius: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(211, 27, 27, 0.6);
 }
 
-/* Formaciones */
-#formaciones img {
-    margin-top: 20px;
-    max-width: 100%;
-    border-radius: 10px;
-}
-
-.videos-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 25px;
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 20px 10px;
-}
-
-.video-container {
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%; /* 16:9 */
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.25);
-}
-
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
-}
-
-.titulo-entrevistas {
-  text-align: center;
-  margin: 40px 0 20px;
-  font-size: 2rem;
-  color: #4b2e09;
-  font-weight: bold;
-}
-
-
-
-.Historico{ /*cuartos de final*/
-    color: rgb(243, 242, 242);
-    text-align: center;
-    background-color: rgb(184, 104, 0);
-    
-    
-}
-
-.contenido-centro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;  /* Centra horizontalmente */
-    text-align: center;   /* Centra el texto del figcaption */
-    margin-top: 20px;
-    
-}
-.parrafos{
-  color: #080808;
-  text-align: justify;
-}
-/* Imagen centrada y ajustada */
-.fotos-goles {
+/* Alineación debajo */
+.alineacion-blanca img {
     display: block;
-    max-width: 90%;  /* Para que no haga scroll horizontal */
+    margin: 40px auto;
+    width: 90%;
+    max-width: 550px;
+    border-radius: 10px;
+}
+
+
+
+.semi-section, .final-section {
+    min-height: 100vh;
+    background: linear-gradient(to right, #000000 55%, rgba(0,0,0,0.35)),
+                url("../Imagenes/festejo vs casla.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 60px 5%;
+    gap: 40px;
+    color: white;
+}
+
+.semi-texto, .final-texto {
+    max-width: 550px;
+}
+
+.semi-titulo, .final-titulo {
+    font-size: 55px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.semi-texto p, .final-texto p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #eaeaea;
+}
+
+.semi-img img  {
+    width: 820px;
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(211, 27, 27, 0.6)
+}
+
+.final-img {
+    flex-shrink: 0;        
+}
+
+.final-img img {
+    width: 680px;          
+    max-width: 100%;       
     height: auto;
-    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(211, 27, 27, 0.6);
+    display: block;
 }
-
-/* Alineación del párrafo */
-#intro p {
-    text-align: center;   /* Centra el texto */
-    max-width: 900px;
-    margin: 0 auto;       /* Centra el párrafo en la página */
-}
+  
+  
 
 
 
-.Semi{ /*semi final*/
-    color: rgb(243, 242, 242);
-    text-align: center;
-    background-color: rgb(184, 104, 0);
-    
-}
 
 
 
-.Final{ /*final*/
-  color: rgb(243, 242, 242);
-    text-align: center;
-    background-color: rgb(184, 104, 0);
-    
-}
+
+
+
+
+
+
+
 #formaciones {
   text-align: center;
   margin: 3rem 0;
@@ -417,11 +448,11 @@ button:hover {
 /* Contenedor de jugadores */
 .figurita {
     display: flex;
-    flex-wrap: wrap;      /* Que pasen a la siguiente línea */
-    gap: 12px;            /* Espacio entre imágenes */
-    justify-content: center; /* Centrado */
-    overflow: hidden;     /* Evita que se salga contenido */
-    position: relative; ;
+    flex-wrap: wrap;      
+    gap: 12px;            
+    justify-content: center; 
+    overflow: hidden;     
+    position: relative; 
     
 }
 
@@ -487,7 +518,7 @@ button:hover {
 .galeria-container img {
     width: 100%;
     height: 250px;
-    object-fit: cover;   /* Recorta sin deformar */
+    object-fit: cover;   
     border-radius: 10px;
     box-shadow: 0 10px 8px rgba(249, 249, 248, 0.2);
     transition: transform 0.3s ease;
@@ -639,10 +670,24 @@ footer {
   .contenido-centro{
     display: none;
   }
+    
 }
 main {
-    margin-top: 80px;  /* Ajustá entre 90 y 130 px según se vea */
+    margin-top: 80px;  
 }
 
+@media (max-width: 900px) {
+    .octavos-hero, .cuartos-section, .semi-section, .final-section{
+        flex-direction: column;
+        text-align: center;
+        background-position: right;
+    }
+
+    .octavos-hero-img {
+        margin: 40px 0 0 0;
+        width: 80px;
+      
+    }
+}
 
 

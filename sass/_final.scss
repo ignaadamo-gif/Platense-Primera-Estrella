@@ -1,39 +1,33 @@
-.Final{ /*final*/
-  color: rgb(243, 242, 242);
-    text-align: center;
-    background-color: rgb(184, 104, 0);
-    
+
+.final-texto {
+    max-width: 550px;
 }
-.contenido-centro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;  /* Centra horizontalmente */
-    text-align: center;   /* Centra el texto del figcaption */
-    margin-top: 20px;
-    
+
+.final-titulo {
+    font-size: 55px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
 }
-.parrafos{
-  color: #b26f04;
-  align-items: center;
+
+.final-texto p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #eaeaea;
 }
-/* Imagen centrada y ajustada */
-.fotos-goles {
-    display: block;
-    max-width: 90%;  /* Para que no haga scroll horizontal */
+
+
+
+.final-img {
+    flex-shrink: 0;        /* evita que empuje y genere scroll */
+}
+
+.final-img img {
+    width: 680px;          /* 👉 ajustá acá el tamaño que quieras */
+    max-width: 100%;       
     height: auto;
-    margin: 0 auto;
-}
-
-/* Alineación del párrafo */
-#intro p {
-    text-align: center;   /* Centra el texto */
-    max-width: 900px;
-    margin: 0 auto;       /* Centra el párrafo en la página */
-}
-
-/* Formaciones */
-#formaciones img {
-    margin-top: 20px;
-    max-width: 100%;
-    border-radius: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(211, 27, 27, 0.6);
+    display: block;
 }

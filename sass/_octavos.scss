@@ -1,26 +1,37 @@
-.titulo-batacazo {
-    text-align: center;
-    font-size: 1.8rem;
-    margin: 20px 10px;
+.octavos-hero {
+    min-height: 100vh;
+    background: linear-gradient(to right, #000000 55%, rgba(0, 0, 0, 0.4)),
+                url("../Imagenes/Festejo vs racing.jpg"); /* <-- Cambialo si querés */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 80px 5%;
+    color: white;
 }
 
-/* Contenedor del texto */
-#intro p {
-    padding: 0 15px;
-    font-size: 1rem;
-    line-height: 1.5;
+/* Texto del lado izquierdo */
+.octavos-hero .texto {
+    max-width: 500px;
 }
 
-/* Imagen central */
-.fotos-goles {
-    margin: 20px auto;
+.octavos-hero h1 {
+    font-size: 65px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+}
+
+.octavos-hero p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #e8e8e8;
+}
+
+/* Imagen del lado derecho */
+.octavos-hero img {
+    width: 820px;
     max-width: 100%;
-    border-radius: 10px;
-}
-
-/* Formaciones */
-#formaciones img {
-    margin-top: 20px;
-    max-width: 100%;
-    border-radius: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(211, 27, 27, 0.6);
 }

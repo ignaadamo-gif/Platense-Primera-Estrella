@@ -1,39 +1,38 @@
-.Semi{ /*semi final*/
-    color: rgb(243, 242, 242);
-    text-align: center;
-    background-color: rgb(184, 104, 0);
-    
-}
-.contenido-centro {
+
+.semi-section, .final-section {
+    min-height: 100vh;
+    background: linear-gradient(to right, #000000 55%, rgba(0,0,0,0.35)),
+                url("../Imagenes/festejo vs casla.jpg");
+    background-size: cover;
+    background-position: center;
     display: flex;
-    flex-direction: column;
-    align-items: center;  /* Centra horizontalmente */
-    text-align: center;   /* Centra el texto del figcaption */
-    margin-top: 20px;
-    
-}
-.parrafos{
-  color: #b26f04;
-  align-items: center;
-}
-/* Imagen centrada y ajustada */
-.fotos-goles {
-    display: block;
-    max-width: 90%;  /* Para que no haga scroll horizontal */
-    height: auto;
-    margin: 0 auto;
+    align-items: center;
+    padding: 60px 5%;
+    gap: 40px;
+    color: white;
 }
 
-/* Alineación del párrafo */
-#intro p {
-    text-align: center;   /* Centra el texto */
-    max-width: 900px;
-    margin: 0 auto;       /* Centra el párrafo en la página */
+.semi-texto, .final-texto {
+    max-width: 550px;
 }
 
-/* Formaciones */
-#formaciones img {
-    margin-top: 20px;
+.semi-titulo, .final-titulo {
+    font-size: 55px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.semi-texto p, .final-texto p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #eaeaea;
+}
+
+.semi-img img  {
+    width: 820px;
     max-width: 100%;
-    border-radius: 10px;
-}
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(211, 27, 27, 0.6);
+    }
